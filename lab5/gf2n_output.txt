@@ -1,0 +1,40 @@
+
+Test 1
+======
+p1=x^5+x^2+x
+p2=x^3+x^2+1
+p3= p1+p2 =  x^5+x^3+x^1+x^0
+
+Test 2
+======
+p4=x^7+x^4+x^3+x^2+x
+modp=x^8+x^7+x^5+x^4+1
+p5=p1*p4 mod (modp)= x^7+x^6+x^4+x^3
+
+Test 3
+======
+p6=x^12+x^7+x^2
+p7=x^8+x^4+x^3+x+1
+q for p6/p7= x^4+x^0
+r for p6/p7= x^5+x^3+x^2+x^1+x^0
+
+Test 4
+======
+g1 =  x^6+x^5+x^2
+g2 =  x^2+x^0
+g1+g2 =  97
+
+Test 5
+======
+irreducible polynomial x^4+x^1+x^0
+g4 =  x^3+x^2+x^0
+g5 =  x^2+x^1
+g4 x g5 =  x^3
+
+Test 6
+======
+g7 =  x^12+x^7+x^2
+g8 =  x^8+x^4+x^3+x^1+x^0
+g7/g8 =
+q =  x^4+x^0
+r =  x^5+x^3+x^2+x^1+x^0
